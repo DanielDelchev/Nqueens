@@ -1,0 +1,19 @@
+Homework 3 for
+the AI course
+in FMI 2017/2018
+
+Nqueens problem sovler.
+
+compilation tested with:
+Cygwingcc (version 5.4.0 (GCC))
+compile with flags "-std=c++11 -Wall -O3"
+
+to build with makefile with GCC execute:
+"make -f makefile"
+
+to run in console
+"./Nqueens"
+or
+"./Nqueens N" to not provide N through standart input
+
+computes board for N=10000 in approximately 5 seconds (if -O3 flag included)
